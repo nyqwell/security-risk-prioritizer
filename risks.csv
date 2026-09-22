@@ -1,0 +1,7 @@
+id,asset,risk,category,likelihood,impact,control_status,owner
+R-001,Customer Web App,Weak administrator authentication,Identity & Access,4,5,Partial,Security Engineering
+R-002,Cloud Storage,Misconfigured storage exposes sensitive data,Cloud Security,3,5,None,Cloud Team
+R-003,Employee Accounts,Phishing leads to account compromise,Human Risk,4,4,Implemented,Security Operations
+R-004,Internal API,Excessive service-account permissions,Identity & Access,3,4,Partial,Platform Engineering
+R-005,Laptop Fleet,Delayed security patching leaves known vulnerabilities,Vulnerability Management,3,3,Implemented,IT Operations
+R-006,Vendor SaaS,Third-party outage interrupts business process,Third-Party Risk,2,3,Partial,Business Operations
